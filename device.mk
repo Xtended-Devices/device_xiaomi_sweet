@@ -107,6 +107,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     DeviceSettings
 
+# Camera
+PRODUCT_PACKAGES += \
+    CameraGo
+
 # Overlays
 PRODUCT_PACKAGES += \
     CarrierConfigOverlaySweet \
