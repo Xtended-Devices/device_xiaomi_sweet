@@ -20,6 +20,10 @@ media.settings.xml=/vendor/etc/media_profiles_vendor.xml
 # Camera
 persist.vendor.camera.facepp.fdenable=0
 
+#Processor Model
+PRODUCT_PROPERTY_OVERRIDES += \
+ro.processor.model = SD732G
+
 # One handed mode
 ro.support_one_handed_mode=true
 
