@@ -13,7 +13,7 @@ $(call inherit-product, device/xiaomi/sweet/device.mk)
 
 # Inherit common Xtended OS  Stuff.
 $(call inherit-product, vendor/xtended/config/common_full_phone.mk)
-TARGET_BOOT_ANIMATION_RES := 2160
+TARGET_BOOT_ANIMATION_RES := 1080
 PRODUCT_NAME := xtended_sweet
 PRODUCT_DEVICE := sweet
 PRODUCT_BRAND := Xiaomi
